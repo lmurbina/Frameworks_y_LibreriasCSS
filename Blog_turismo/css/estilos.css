@@ -1,0 +1,148 @@
+
+.row{margin-bottom: 10px !important;}
+body{
+	background-color: #48D1CC;
+}
+.contenedor{	
+	background-image: url("../img/fondo.jpg");
+	background-attachment: fixed;
+	background-position-y: 11rem;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	width: 100%;
+  	height: 100%;
+	
+}
+.encabezado{
+	min-height: 8rem;
+	
+
+}
+.head-logo{
+	padding: 0 !important;
+}
+.logo{
+	width: 120px;
+	margin-right: auto;
+}
+.menu-top{
+	background-color: transparent !important;
+	max-height: 3rem;
+	float: right !important;	
+	display: inline-block;
+	margin-top: 1rem;
+	text-align: right;
+}
+.btn{
+	margin-left: 0.5rem; 
+	padding: 0 0.5rem;
+	height: 2.2rem;
+	line-height: 2rem;
+}
+
+.eslogan{
+	background-color: #48D1CC;
+	margin-top: -3rem;
+	max-height: 3rem;
+	padding: 0 !important;
+}
+.eslogan-title{
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: left;
+	font-style: italic;
+	width: 100%;
+	margin-left: 5px;
+}
+.redes-sociales{
+	margin-top: 2rem;
+	margin-bottom: 15px;
+	text-align: center;
+}
+.img-social{
+	width: 40px;
+	height: 40px;
+	margin-bottom: 10px;
+}
+.img-galeria{
+	width: 100%;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	height: auto;
+	margin-top: 10px;
+}
+.galeria-img{
+	min-height: 180px;
+	max-height: 100%;
+	display: flex;
+	align-items: center;
+}
+.img-blog{
+	width: 12rem;
+	float: left;
+	left: 0;
+	margin: 10px 10px 10px 0;
+}
+.blog{
+	background-color: rgba(255, 255, 255, 0.9);
+	text-align: justify;
+}
+.blog > h4{
+	text-align: left;
+}
+.comentarios{
+	background-color: #48D1CC;
+}
+.comentarios label{
+	color: white !important;
+}
+.comentarios input, textarea.materialize-textarea{
+	border-bottom: 1px solid white;
+}
+
+.about-autor{
+	background-color: rgba(255, 255, 255, 0.9);
+	text-align: center;
+}
+.img-autor{
+	width: 200px;
+	border-radius: 100px;
+}
+@media (max-width: 600px) {
+	.menu-top{
+		padding: 0 !important;
+	 }
+	.principal, .contenedor, .encabezado{
+		width: 100% !important;
+		margin: 0 !important;
+		padding-right: 0 !important;
+		padding-left: 0 !important;
+	}
+	 .galeria-img, div[class*="galeria-img"] .col{
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+		padding-left: 0 !important;
+		text-align: center;
+		padding-right: 0 !important;
+	}
+	.img-galeria{
+		width: 94%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.eslogan{
+		margin-top: 0;
+	}
+	.eslogan-title{
+		font-size: 20px;
+	}
+	.img-blog{
+		width: 100%
+	}
+}
+
+
+/*
+https://www.youtube.com/embed/9xh9U6-x_lU?version=3&enablejsapi=1&html5=1&volume=0&hd=1&wmode=opaque&showinfo=0&rel=0;;origin=https://www.visitanicaragua.com;&controls=0&start=3
+*/
